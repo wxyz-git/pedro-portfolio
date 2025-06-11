@@ -3,6 +3,7 @@
 import { useEffect, useState, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { FaLinkedin, FaGithub, FaArrowDown, FaEthereum } from 'react-icons/fa';
+import Image from 'next/image';
 import Button from '@/components/ui/Button';
 import profileData from '@/data/profile';
 
@@ -101,16 +102,16 @@ const Hero = () => {
           {/* Tech stack icons */}
           <div className="flex justify-center gap-6 mb-10">
             <div className="p-3 bg-white rounded-sm border border-gray-100 flex items-center justify-center">
-              <img src="/rust-logo.svg" alt="Rust" className="h-5 w-5" />
+              <Image src="/rust-logo.svg" alt="Rust" width={20} height={20} />
             </div>
             <div className="p-3 bg-white rounded-sm border border-gray-100 flex items-center justify-center">
-              <img src="/solana-logo.svg" alt="Solana" className="h-5 w-5" />
+              <Image src="/solana-logo.svg" alt="Solana" width={20} height={20} />
             </div>
             <div className="p-3 bg-white rounded-sm border border-gray-100 flex items-center justify-center">
               <FaEthereum className="h-5 w-5 text-gray-700" />
             </div>
             <div className="p-3 bg-white rounded-sm border border-gray-100 flex items-center justify-center">
-              <img src="/typescript-logo.svg" alt="TypeScript" className="h-5 w-5" />
+              <Image src="/typescript-logo.svg" alt="TypeScript" width={20} height={20} />
             </div>
           </div>
           

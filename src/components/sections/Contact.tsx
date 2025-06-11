@@ -59,7 +59,7 @@ const Contact = () => {
           
           <div className="text-center">
             <p className="text-gray-600 mb-6 max-w-xl mx-auto">
-              I'm available for freelance work and consulting. Feel free to reach out via email or connect with me on social media.
+              I&apos;m available for freelance work and consulting. Feel free to reach out via email or connect with me on social media.
             </p>
             
             <div className="flex justify-center space-x-6">

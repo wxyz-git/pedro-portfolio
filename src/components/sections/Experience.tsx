@@ -3,7 +3,6 @@
 import { motion } from 'framer-motion';
 import { FaBriefcase, FaCalendarAlt, FaMapMarkerAlt } from 'react-icons/fa';
 import Section from '@/components/ui/Section';
-import Badge from '@/components/ui/Badge';
 import profileData from '@/data/profile';
 import { fadeIn, slideUp } from '@/utils/animations';
 

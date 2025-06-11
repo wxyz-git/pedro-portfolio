@@ -1,6 +1,5 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { FaGraduationCap, FaLanguage, FaCode } from 'react-icons/fa';
 import Section from '@/components/ui/Section';
